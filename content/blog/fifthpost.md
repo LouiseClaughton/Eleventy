@@ -1,6 +1,6 @@
 ---
-title: This is a fifth post (draft)
-date: 2023-01-23
-draft: true
+title: My Post
+date: 2024-04-13
+draft: false
 ---
-This is a draft post
+This is my new post.
