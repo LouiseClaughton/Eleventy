@@ -4,19 +4,19 @@ layout: layouts/base.njk
 <form method="POST" netlify name="contact" data-netlify="true">
 <div class="m-5 text-bg-danger">
   <label for="firstname" class="form-label">First Name</label>
-  <input type="text" class="form-control" id="firstname">
+  <input type="text" class="form-control" id="firstname" name="firstname">
 </div>
 <div class="m-5 text-bg-success">
   <label for="surname" class="form-label">Surname</label>
-  <input type="text" class="form-control" id="surname">
+  <input type="text" class="form-control" id="surname" name="surname">
 </div>
 <div class="m-5 text-bg-primary">
   <label for="email" class="form-label">Email Address</label>
-  <input type="email" class="form-control" id="email">
+  <input type="email" class="form-control" id="email" name="email">
 </div>
 <div class="m-5 text-bg-dark">
   <label for="message" class="form-label">Message</label>
-  <textarea class="form-control" id="message" rows="3"></textarea>
+  <textarea class="form-control" id="message" rows="3" name="message"></textarea>
 </div>
 <button class="btn btn-lg btn-primary" type="submit">Submit</button>
 </form>
